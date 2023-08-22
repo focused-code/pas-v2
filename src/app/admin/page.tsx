@@ -1,3 +1,3 @@
-export default function Assessment() {
-    return (<>Assessment</>)
+export default function Admin() {
+    return (<>Admin</>)
 }
