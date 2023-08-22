@@ -1,0 +1,67 @@
+.rc-tabs {
+    border: none;
+}
+
+.rc-tabs-nav-list {
+    width: 100%;
+}
+
+.rc-tabs-tab {
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+    text-transform: uppercase;
+    border-radius: 0.313rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #0e1040;
+    color: #fff;
+    flex: 1;
+    justify-content: center;
+    font-weight: normal;
+    ;
+}
+
+.rc-tabs-tab-btn {
+    padding: 0;
+    border-radius: 0.313rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    place-items: center;
+}
+
+.rc-tabs-tab-btn span.notice-number {
+    margin-left: 5px;
+    color: red;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    display: block;
+    border-radius: 15px;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+    font-weight: bold;
+}
+
+.rc-tabs-tab-btn:focus {
+    outline: none;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+.rc-tabs-tab-active {
+    font-weight: normal;
+    background-color: #006837;
+}
+
+.rc-tabs-tabpane-active:focus {
+    outline: none;
+}
+
+.rc-tabs-ink-bar {
+    background-color: #006837;
+}

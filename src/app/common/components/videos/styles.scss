@@ -1,0 +1,277 @@
+.content-section {
+    width: 100%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.active-item {
+    background-color: #14143f !important;
+
+    button,
+    button i {
+        color: #fff !important;
+    }
+
+    button:hover,
+    button:active,
+    button:focus {
+        color: #fff !important;
+    }
+}
+
+.large {
+    min-height: 545px;
+}
+
+.medium {
+    min-height: 430px;
+}
+
+.small {
+    min-height: 272px;
+}
+
+.player-wrapper {
+    position: relative;
+    margin: 1% 0;
+    width: 100%;
+    margin-bottom: 4%;
+
+    .player-buttons {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        min-height: 30px;
+
+        button {
+            margin: 3px;
+            padding: 3px 10px;
+            border: 0;
+            border-radius: 2.5px !important;
+            font-size: 10px !important;
+            text-align: center;
+            font-weight: normal !important;
+            outline: 0;
+            background-color: #eee !important;
+            text-transform: lowercase !important;
+        }
+
+        button:hover {
+            background-color: #14143f !important;
+            color: #fff !important;
+        }
+
+        button.active {
+            background-color: #408f4d !important;
+            color: #fff !important;
+        }
+    }
+}
+
+.react-player {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.training-center {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    max-height: 700px;
+    overflow-y: auto;
+
+    .selected-resource {
+        width: 100%;
+        margin-bottom: 5%;
+
+        h5 {
+            text-transform: uppercase;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            font-size: 1rem;
+            color: #179ad6;
+            border-bottom: 1px dotted #179ad6;
+            padding-bottom: 3px;
+        }
+
+        .content {
+            width: 100%;
+            color: #0f133c;
+            font-size: 0.75rem;
+
+            a {
+                color: #179ad6;
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 15px;
+
+                li {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .top-row {
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+                .item {
+                    width: 100%;
+                    flex: 1;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+
+                    img {
+                        max-height: 150px;
+                        width: 35%;
+                    }
+
+                    p {
+                        font-size: 0.8rem;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .video-row {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #e3e3e3;
+                margin-bottom: 2%;
+                border-radius: 2.5px;
+
+                .video-item {
+                    width: 100%;
+                    flex: 1;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    padding: 1.5%;
+
+                    div.video-details {
+                        font-size: 0.7rem;
+                        width: 100%;
+                        text-align: left;
+                        padding: 1%;
+                        margin-top: 30px;
+
+                        h4 {
+                            font-size: 0.85rem;
+                            font-weight: 600;
+                            text-align: left;
+                            border-bottom: 1px dotted #868686;
+                            padding-bottom: 2px;
+                        }
+
+                        p {
+                            font-size: 0.65rem;
+                            text-align: left;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+            .video-container {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 2% 0;
+            }
+
+            // End of .video-container
+
+            .faq-section {
+                width: 100%;
+                margin: 2% 0;
+                padding: 2% 0;
+
+                .accordion {
+                    .card {
+                        width: 100%;
+
+                        .card-header {
+                            background-color: #fff;
+
+                            h5.mb-0 {
+                                font-family: 'Open Sans', sans-serif;
+                                background-color: transparent;
+                                margin: 0;
+                                border: none;
+
+                                button {
+                                    background-color: transparent;
+                                    width: 100%;
+                                    text-align: left;
+                                    border: none;
+                                    text-decoration: none;
+                                    color: #212529;
+                                    padding: 0.375rem 0;
+                                    font-weight: 600;
+                                }
+
+                                button:focus {
+                                    border: none;
+                                    box-shadow: none;
+                                }
+
+                                button i {
+                                    float: right;
+                                    font-size: 17px;
+                                    color: #212529;
+                                }
+                            }
+                        }
+
+                        .active-item {
+                            background-color: #408f4d !important;
+
+                            button,
+                            button i {
+                                color: #fff !important;
+                            }
+                        }
+
+                        .card-header:nth-of-type(odd) {
+                            background-color: #f7f8f9;
+                        }
+
+                        .card-body {
+
+                            ul,
+                            ol {
+                                margin: 2% 5%;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // End of .content
+    }
+
+    // End of .selected-resource
+}
+
+// End of .training-center
+
+.selectedsvg {
+    fill: #f6ee0a !important;
+}

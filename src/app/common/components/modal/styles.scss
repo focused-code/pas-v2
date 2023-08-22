@@ -1,0 +1,24 @@
+blockquote {
+    color: 'black';
+    margin: 1em 0;
+    padding: 1em;
+    font-style: italic;
+    border-left: 0.5em #eee solid;
+    background: #f9f9f9;
+}
+
+// List Styling
+.modal-markdown{
+    ul {
+        li {
+            p {
+                margin-bottom: 0;
+            }
+            ul {
+                li {
+                    margin: 1rem 0 !important;
+                }
+            }
+        }
+    }
+}

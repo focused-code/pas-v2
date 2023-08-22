@@ -1,0 +1,56 @@
+.rc-tabs {
+  border: none;
+}
+
+.rc-tabs-nav-list {
+  width: 100%;
+}
+
+.rc-tabs-tab {
+  font-size: 0.75rem;
+  margin: 0 0.3rem;
+  text-transform: uppercase;
+  border-radius: 0.313rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #0e1040;
+  color: #fff;
+  flex: 1;
+  justify-content: center;
+  ;
+}
+
+.rc-tabs-tab-disabled {
+  background-color: #ccc;
+  opacity: 0.5;
+}
+
+.rc-tabs-tab-btn {
+  padding: 0;
+  border-radius: 0.313rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rc-tabs-tab-btn:focus {
+  outline: none;
+  background-color: #006837;
+  font-weight: normal;
+}
+
+.rc-tabs-tab-active {
+  font-weight: normal;
+  background-color: #006837;
+}
+
+.rc-tabs-tabpane {
+  padding: 0.5rem;
+}
+
+.rc-tabs-tabpane-active:focus {
+  outline: none;
+}
+
+.rc-tabs-ink-bar {
+  background-color: #006837;
+}

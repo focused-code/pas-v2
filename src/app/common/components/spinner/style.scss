@@ -1,0 +1,29 @@
+.spinner-container{
+    text-align: center;
+}
+
+.loader{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1031;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .loader-child{
+        max-width: 50%;
+        span{
+            font-family: 'Oswald', sans-serif !important;
+            font-weight: 300;
+            font-size: 0.875rem;
+            letter-spacing: 0.063rem;
+        }
+    }
+}

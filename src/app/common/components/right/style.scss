@@ -1,0 +1,11 @@
+.blured{
+    svg {
+        filter: blur(5px);
+    }
+}
+
+.notblured{
+    svg {
+        filter: blur(0);
+    }
+}

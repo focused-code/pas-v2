@@ -1,0 +1,14 @@
+.sv-root-modern {
+    width: 100%;
+}
+
+.sv-container-modern__title {
+    padding-top: 0 !important;
+}
+
+@media only screen and (min-width: 1000px) {
+    .sv-completedpage {
+        margin-right: 1% !important;
+        margin-left: calc(1% + 0.293em) !important;
+    }
+}
